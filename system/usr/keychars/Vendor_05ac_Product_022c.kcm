@@ -13,7 +13,9 @@
 # limitations under the License.
 
 #
-# Special key character map for my chinese keyboard
+# Special key character map for supposedly made in China 
+# flexible bluetooth keyboard.
+# This files alters some of the codes sent for some key combinations
 
 type FULL
 
@@ -270,6 +272,8 @@ key 9 {
     shift:                              '('
 }
 
+# the l/r shift, l/r alt and ctrl mappings are added for SPACE and ENTER
+# keys from generic kcm file.
 key SPACE {
     label:                              ' '
     base:                               ' '

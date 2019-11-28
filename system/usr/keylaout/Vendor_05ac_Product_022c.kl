@@ -19,7 +19,8 @@
 # Do not edit the generic key layout to support a specific keyboard; instead, create
 # a new key layout file with the required keyboard configuration.
 # create date 5-February-2019
-# modified for my chinese blutooth keyboard.
+# modified for my a supposedly made in China flexible bluetooth keyboard.
+# this remaps some key combos to Android specific codes.
 
 key 1     ESCAPE
 key 2     1
@@ -128,6 +129,7 @@ key 104   PAGE_UP
 key 105   DPAD_LEFT
 key 106   DPAD_RIGHT
 #key 107    BRIGHTNESS_UP
+# remapped
 key 107   BRIGHTNESS_DOWN
 key 108   DPAD_DOWN
 key 109   PAGE_DOWN
